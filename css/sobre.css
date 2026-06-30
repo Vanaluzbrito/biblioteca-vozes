@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Squada+One&display=swap');
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+    font-family: "Montserrat", sans-serif;
+    background-color:#ffffff;
+
+
+
+}
+
+
+
+li, a {
+    font-size: 18px;
+    color:#ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header{
+    max-width:1800px; 
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 200px;
+    background-color:#174e82 ;
+
+}
+
+.logotipo{
+    color:#ffffff;
+    font-size: 25px;
+    font-weight: bold;
+   
+
+}
+
+.nav-links{
+    list-style: none;
+
+}
+
+.nav-links li{
+    display: inline-block;
+    padding: 0px 15px;
+    justify-content: flex-end;
+}
+
+.nav-links li a:hover{
+    color: #39a5a3;
+
+}
+
+@media(max-width:1800px){
+    li, a {
+   font-size: 18px;
+ }
+
+}
+
+
+.sobrebiblio h1{
+    text-align: center;
+    padding-top: 10px;
+    margin: 10px auto;
+    font-size: 25px;
+    font-weight:bold;
+    color: #174e82;
+    max-width: 600px;
+     border-bottom: 3px solid #178281;
+}
+
+
+.conteudohist span{
+    color:#ffffff;
+    font-weight: bold;
+    position: absolute;
+    top: 150px;
+    left: 20px;
+    padding: 20px;
+    font-size: 20px;
+
+
+    
+}
+.conteudohist{
+     display: flex;
+    align-items:center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #174e82;
+    margin-top: 30px;
+
+}
+
+.conteudohist p{
+    padding: 20px;
+    padding-bottom: 30px;
+    text-align: justify;
+    font-size: 17px;
+    font-weight: 300;
+    color: #ffffff;
+
+}
+.imghistoria{
+    width: 450px;
+    display: block;
+    padding: 10px 10px;
+}
+
+
+.missao_visao span{
+     color:#171882;
+    font-weight: bold;
+    position: absolute;
+    top: 500px;
+    left: 20px;
+    padding: 20px;
+    font-size: 20px;
+}
+    
+
+.missao_visao{
+    width: 100%;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.missao_visao p{
+    text-align: justify;
+    font-size: 17px;
+    font-weight: 300;
+    padding: 20px;
+    padding-bottom: 30px;
+    color: #171882;
+}
+
+.imgmissao{
+    width: 450px;
+    display: block;
+    padding: 10px 10px;
+}
+
+
+.publialvo{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #174e82;
+    margin-bottom: 30px;
+
+}
+
+.publialvo span{
+    color: #ffffff;
+    font-weight: bold;
+    position: absolute;
+    top: 800px;
+    left: 20px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+
+.publialvo p{
+    padding: 20px;
+    padding-bottom: 30px;
+    text-align: justify;
+    font-size: 17px;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+.imgpubli{
+    width: 450px;
+    display: block;
+    padding: 10px 10px;
+}
+#footer_contener{
+    padding: 10px 10px;
+    background-color: #174e82;
+
+}
+
+.titulo_footer{
+    
+   font-size: 20px;
+   font-weight: 500;
+   text-align: left;
+   color:#ffffff;
+}
+#footer_contacts p{
+    font-size: 15px;
+    font-weight: 500;
+   text-align: left;
+   color:#ffffff;
+  
+}
+
+#footer_contacts{
+    max-width: 1200px;
+    height: 40px;
+    margin: 0 auto;
+    padding: 10px 20px;
+
+}
+
+.footer-nav {
+    margin-top: 10px;
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     margin: 10px 10px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+
+    
+
+}
+
+.footer-nav a{
+    font-size: 15px;
+    font-weight: 400;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 15px;
+
+   
+}
+
+.footer-nav a:hover{
+     color: #39a5a3;
+}
+
+.footer_direitos{
+    font-size: 15px;
+    font-weight: 200;
+    text-align: center;
+    color: #ffffff;
+}
+#footer_social_midia{
+     margin: 0;
+     padding: 10px 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+}

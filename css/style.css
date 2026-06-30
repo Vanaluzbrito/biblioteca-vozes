@@ -1,0 +1,241 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Squada+One&display=swap');
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+    font-family: "Montserrat", sans-serif;
+    background-color:#ffffff;
+
+
+
+}
+
+
+
+li, a {
+    font-size: 18px;
+    color:#ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header{
+    max-width:1800px; 
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 200px;
+    background-color:#174e82 ;
+
+}
+
+.logotipo{
+    color:#ffffff;
+    font-size: 25px;
+    font-weight: bold;
+   
+
+}
+
+.nav-links{
+    list-style: none;
+
+}
+
+.nav-links li{
+    display: inline-block;
+    padding: 0px 15px;
+    justify-content: flex-end;
+}
+
+.nav-links li a:hover{
+    color: #39a5a3;
+
+}
+
+@media(max-width:1800px){
+    li, a {
+   font-size: 18px;
+ }
+
+}
+
+
+.banner{
+    position: relative;
+    width: 100%;
+    height: 450px;
+    overflow: hidden;
+    margin-top: 40px;
+}
+.banner img{
+    position: center; 
+    width: 100%;
+    height: 450px;
+
+}
+
+.caixa-sobreposta{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 35px;
+    margin: 0 auto;
+    background-color: rgba(23, 78, 130, 0.7);
+    transform: translate(-50%, -50%);
+}
+
+.caixa-sobreposta h2{
+    color:#ffffff;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 25px;
+    margin: 0 auto;
+}
+
+.caixa-sobreposta p{
+    color:#ffffff;
+    font-size: 20px;
+    font-weight:500;
+    text-align:justify;
+
+}
+
+.titulo_servico a{
+   color:#174e82;
+    top: 62%;
+    left: 50%;
+    bottom: 90%;
+    position: absolute;
+    align-items: center;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    
+   
+}   
+
+
+
+#destaque_servicos{
+    max-width: 1100px; margin: 0 auto; 
+}
+
+
+
+.servicos{
+  margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    justify-content:center;
+    padding: 60px 4px;
+}
+
+.card-servico{
+    flex: 1 1 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 1.5rem 1rem;
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    border-radius: 12px;
+}
+
+.card-servico :hover{
+    transform: translateY(-4px);
+    box-shadow: 0 10px 25px -10px rgba(0,0,0,.15);
+    border-color: #2563eb;
+}
+
+.label{
+   font-size: .9rem; 
+   font-weight: 500; 
+   text-align: center;
+   color: #174e82;
+}
+
+
+#footer_contener{
+    padding: 10px 10px;
+    background-color: #174e82;
+
+}
+
+.titulo_footer{
+    
+   font-size: 20px;
+   font-weight: 500;
+   text-align: left;
+   color:#ffffff;
+}
+#footer_contacts p{
+    font-size: 15px;
+    font-weight: 500;
+   text-align: left;
+   color:#ffffff;
+  
+}
+
+#footer_contacts{
+    max-width: 1200px;
+    height: 40px;
+    margin: 0 auto;
+    padding: 10px 20px;
+
+}
+
+.footer-nav {
+    margin-top: 10px;
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     margin: 10px 10px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+
+    
+
+}
+
+.footer-nav a{
+    font-size: 15px;
+    font-weight: 400;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 15px;
+
+   
+}
+
+.footer-nav a:hover{
+     color: #39a5a3;
+}
+
+.footer_direitos{
+    font-size: 15px;
+    font-weight: 200;
+    text-align: center;
+    color: #ffffff;
+}
+#footer_social_midia{
+     margin: 0;
+     padding: 10px 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+}
